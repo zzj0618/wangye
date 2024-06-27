@@ -1,0 +1,132 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>个人简历</title>  
+    <style>  
+        /* 样式 */  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 0;  
+            padding: 20px;  
+        }  
+  
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+            margin-bottom: 20px;  
+        }  
+  
+        th, td {  
+            padding: 10px;  
+            text-align: left;  
+        }  
+  
+        th {  
+            background-color: #f2f2f2;  
+        }  
+  
+        tr:nth-child(even) td {  
+            background-color: #f9f9f9;  
+        }  
+  
+        /* 响应式布局 */  
+        @media screen and (max-width: 600px) {  
+            table, thead, tbody, th, td, tr {  
+                display: block;  
+            }  
+  
+            thead tr {  
+                position: absolute;  
+                top: -9999px;  
+                left: -9999px;  
+            }  
+  
+            tr {  
+                margin: 0 0 1rem 0;  
+                position: relative;  
+                padding-left: 50%;  
+            }  
+  
+            tr td {  
+                display: block;  
+                padding: 0;  
+                text-indent: -2em;  
+            }  
+  
+            tr td:before {  
+                content: attr(data-label);  
+                float: left;  
+                text-transform: uppercase;  
+                font-weight: bold;  
+                text-indent: 0;  
+                width: 45%;  
+                padding-right: 10px;  
+            }  
+        }  
+    </style>  
+</head>  
+<body>  
+  
+<h1>个人简历</h1>  
+  
+<table>  
+    <tr>  
+        <th>姓名</th>  
+        <td>周振杰</td>  
+    </tr>  
+    <tr>  
+        <th>性别</th>  
+        <td>男</td>  
+    </tr>  
+    <tr>  
+        <th>年龄</th>  
+        <td>23</td>  
+    </tr>  
+    <tr>  
+        <th>联系方式</th>  
+        <td>15726997433</td>  
+    </tr>  
+    <tr>  
+        <th>邮箱</th>  
+        <td>15757065327@163.com</td>  
+    </tr>  
+    <tr>  
+        <th>地址</th>  
+        <td>浙江衢州</td>  
+    </tr>  
+    <tr>  
+        <th>教育背景</th>  
+        <td>  
+            <p><strong>景德镇艺术职业大学</strong></p>  
+            <p>电子商务</p>  
+            <p>2021.09 - 2025.06</p>  
+        </td>  
+    </tr>  
+    <tr>  
+        <th>工作经历</th>  
+        <td>  
+            <p><strong>维修公司</strong></p>  
+            <p>帮工</p>  
+            <p>2020.07 -2020.08</p>  
+            <p>社会实践</p>  
+        </td>  
+    </tr>  
+    <tr>  
+        <th>技能</th>  
+        <td>  
+            <ul>  
+                <li>有使用各种办公软件的经验</li>  
+                <li>驾驶技术</li>  
+                <li>网页代码编辑</li>  
+                <li>视频剪辑</li>  
+                <li>视频账号运营</li>  
+            </ul>  
+        </td>  
+    </tr>  
+</table>  
+<hr />
+<h1>电商一班.周振杰.2024.06.22</h1> 
+</body>  
+</html>
